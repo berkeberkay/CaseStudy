@@ -4,7 +4,7 @@ from ultralytics import YOLO
 from roboflow import Roboflow
 
 # Downloading dataset from Roboflow in YOLO TXT Format
-rf = Roboflow(api_key="18RxwUeCWiTnqAaFvtho")  
+rf = Roboflow(api_key="API-KEY")  
 project = rf.workspace("object-detection-part").project("android-ui-dataset")
 version = project.version(2)
 dataset = version.download("yolov8") 
