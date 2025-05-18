@@ -10,7 +10,7 @@ version = project.version(2)
 dataset = version.download("yolov8") 
 
 # Yolo Model
-model = YOLO("yolo11m.pt")  # dilersen "yolov8m.pt" veya "yolov8s.pt" seç
+model = YOLO("yolo11m.pt") 
 
 # Training Model
 model.train(
